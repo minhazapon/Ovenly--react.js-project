@@ -8,13 +8,13 @@ const Nav = () => {
    const NavZ = <>
    
      
-     <li><NavLink to='/' >Home</NavLink></li>
-     <li><NavLink to='/' >Home</NavLink></li>
-     <li><NavLink to='/' >Home</NavLink></li>
-     <li><NavLink to='/' >Home</NavLink></li>
-     <li><NavLink to='/' >Home</NavLink></li>
-     <li><NavLink to='/' >Home</NavLink></li>
-     <li><NavLink to='/' >Home</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/' >Home</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/menu' >Menu</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/page' >Page</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/reservation' >Reservation</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/gallery' >Gallery</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/blog' >Blog</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/contact' >Contact</NavLink></li>
    
    
    </>
@@ -58,9 +58,6 @@ const Nav = () => {
             {NavZ}
             </ul>
           </div>
-          {/* <div className="navbar-end">
-            <a className="btn">Button</a>
-          </div> */}
         </div>
             
         </div>
