@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import './raw css/Vanila.css'
 
 
 import {
@@ -9,6 +10,7 @@ import {
 } from "react-router-dom";
 import Root from './Root';
 import Home from './Home';
+
 
 
 const router = createBrowserRouter([
