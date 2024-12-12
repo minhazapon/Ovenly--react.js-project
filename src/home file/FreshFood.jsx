@@ -5,7 +5,7 @@ const FreshFood = () => {
     return (
         <div className=" mb-20 ">
 
-            <div className=" flex justify-between p-10 bg-gray-100 ">
+            <div className=" flex-col md:flex-row lg:flex-row flex justify-between gap-10 p-10 bg-gray-100 ">
                
                <div className=" flex items-center  gap-5 ">
                 <img className=" h-[80px] w-[80px] " src="https://dina.matchthemes.com/wp-content/uploads/groceries-2.png" alt="" />
