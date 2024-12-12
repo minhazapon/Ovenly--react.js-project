@@ -25,7 +25,7 @@ const HomeBanner = () => {
         <div
         className="hero min-h-screen"
         style={{
-        backgroundImage: "url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0_tbrJhFqRBvlE7U2ICxmKMfmAS80QxP_naYKScnbLyK_zrqKmX7dRX5KbrHRUV0zhJE7OcXxrbn-phcibPiCD5rG5_S2dBiJrBfKgB1SxheGEdBFd_VfFOqFR9BPQqnp_ZIeWgtpX8L6/s1600/DSC07710.JPG)",
+        backgroundImage: "url(https://static.vecteezy.com/system/resources/previews/024/473/582/non_2x/tasty-homemade-dark-chocolate-cake-with-dark-background-generative-ai-free-photo.jpg)",
         }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-neutral-content text-center">
