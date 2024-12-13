@@ -1,4 +1,5 @@
 import MenuBanner from "./MenuBanner";
+import Starters from "./Starters";
 
 
 
@@ -7,6 +8,7 @@ const MenuMother = () => {
         <div>
 
             <MenuBanner></MenuBanner>
+            <Starters></Starters>
             
         </div>
     );
