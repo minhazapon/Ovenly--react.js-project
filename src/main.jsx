@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Root from './Root';
 import Home from './Home';
+import MenuMother from './menu file/MenuMother';
 
 
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>  ,
+      },
+      {
+        path: "/menu",
+        element: <MenuMother></MenuMother> ,
       },
     ],
   },
