@@ -8,7 +8,7 @@ const MenuBanner = () => {
         backgroundImage: "url(https://ewenbell.com/10k/hdcache/Special/honeycomb-6878.jpg)",}}>
         <div className=" bg-gradient-to-r from-black p-5 rounded-xl ">
         <p className=" text-center text-5xl play ">Menu </p>
-        <p className=" text-center text-xl play text-gray-400 mt-10 ">Enjoy one of our delicious plates </p>
+        <p className=" text-center text-xl play text-white mt-10 ">Enjoy one of our delicious plates </p>
         </div>
         </div>
     );

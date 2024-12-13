@@ -11,6 +11,7 @@ import {
 import Root from './Root';
 import Home from './Home';
 import MenuMother from './menu file/MenuMother';
+import Page from './page file/Page';
 
 
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/menu",
         element: <MenuMother></MenuMother> ,
+      },
+      {
+        path: "/page",
+        element: <Page></Page> ,
       },
     ],
   },
