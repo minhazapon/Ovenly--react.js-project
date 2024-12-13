@@ -1,4 +1,5 @@
 import About from "./home file/About";
+import Drinks from "./home file/Drinks";
 import FreshFood from "./home file/FreshFood";
 import HomeBanner from "./home file/HomeBanner";
 import House from "./home file/House";
@@ -17,6 +18,7 @@ const Home = () => {
             <House></House>
             <Menu></Menu>
             <OpenHours></OpenHours>
+            <Drinks></Drinks>
             
         </div>
     );
