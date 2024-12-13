@@ -3,6 +3,7 @@ import FreshFood from "./home file/FreshFood";
 import HomeBanner from "./home file/HomeBanner";
 import House from "./home file/House";
 import Menu from "./home file/Menu";
+import OpenHours from "./home file/OpenHours";
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
             <About></About>
             <House></House>
             <Menu></Menu>
+            <OpenHours></OpenHours>
             
         </div>
     );
