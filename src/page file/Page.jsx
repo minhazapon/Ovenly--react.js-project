@@ -2,6 +2,7 @@ import BookTable from "./BookTable";
 import Information from "./Information";
 import Our from "./Our";
 import PageBanner from "./PageBanner";
+import Team from "./Team";
 
 
 
@@ -13,6 +14,7 @@ const Page = () => {
             <PageBanner></PageBanner>
             <Our></Our>
             <Information></Information>
+            <Team></Team>
             <BookTable></BookTable>
             
         </div>
