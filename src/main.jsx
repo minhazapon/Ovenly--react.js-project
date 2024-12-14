@@ -13,6 +13,7 @@ import Home from './Home';
 import MenuMother from './menu file/MenuMother';
 import Page from './page file/Page';
 import Reservation from './Reservation';
+import Gallery from './gallery file/Gallery';
 
 
 
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/reservation",
         element:  <Reservation></Reservation> ,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery></Gallery> ,
       },
     ],
   },

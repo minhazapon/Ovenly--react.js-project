@@ -5,33 +5,31 @@ import Swal from "sweetalert2";
 const ReBookForm = () => {
 
 
-     const onSubmit = async (event) => {
-        event.preventDefault();
-        const formData = new FormData(event.target);
-        formData.append("access_key", "e87151e8-7baa-471d-b58a-0bd71fe1cd67");
-        const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData
-        });
-        const data = await response.json();
-        if (data.success) {
-        Swal.fire({
-        title: 'Reserved!',
-        text: 'Do you want to continue',
-        icon: 'success',
-        confirmButtonText: 'Cool'
-        })
-        event.target.reset();
-        } else {
-        Swal.fire({
-        title: 'Error!',
-        text: 'Do you want to continue',
-        icon: 'error',
-        confirmButtonText: 'Cool'
-        })
-        setResult(data.message);
-        }
-        };
+    const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "e87151e8-7baa-471d-b58a-0bd71fe1cd67");
+    const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    body: formData
+    });
+    const data = await response.json();
+    if (data.success) {
+    Swal.fire({
+    title: 'Reserved!',
+    text: 'Do you want to continue',
+    icon: 'success',
+    confirmButtonText: 'Cool'
+    })
+    event.target.reset();
+    } else {
+    Swal.fire({
+    title: 'Error!',
+    text: 'Do you want to continue',
+    icon: 'error',
+    confirmButtonText: 'Cool'
+    })
+    setResult(data.message);}};
     
 
 
