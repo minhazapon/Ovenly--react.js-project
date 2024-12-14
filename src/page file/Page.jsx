@@ -1,4 +1,5 @@
 import BookTable from "./BookTable";
+import Our from "./Our";
 import PageBanner from "./PageBanner";
 
 
@@ -9,6 +10,7 @@ const Page = () => {
         <div>
 
             <PageBanner></PageBanner>
+            <Our></Our>
             <BookTable></BookTable>
             
         </div>

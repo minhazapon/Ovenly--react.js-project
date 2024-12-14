@@ -10,7 +10,7 @@ const Nav = () => {
      
      <li className="  nav text-xl " ><NavLink to='/' >Home</NavLink></li>
      <li className="  nav text-xl " ><NavLink to='/menu' >Menu</NavLink></li>
-     <li className="  nav text-xl " ><NavLink to='/page' >Page</NavLink></li>
+     <li className="  nav text-xl " ><NavLink to='/page' >About Us</NavLink></li>
      <li className="  nav text-xl " ><NavLink to='/reservation' >Reservation</NavLink></li>
      <li className="  nav text-xl " ><NavLink to='/gallery' >Gallery</NavLink></li>
      <li className="  nav text-xl " ><NavLink to='/blog' >Blog</NavLink></li>
