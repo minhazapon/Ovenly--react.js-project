@@ -1,4 +1,5 @@
 import GallerBanner from "./GallerBanner";
+import GalleryCard from "./GalleryCard";
 
 
 
@@ -8,6 +9,7 @@ const Gallery = () => {
         <div>
 
             <GallerBanner></GallerBanner>
+            <GalleryCard></GalleryCard>
             
         </div>
     );
