@@ -12,6 +12,7 @@ import Root from './Root';
 import Home from './Home';
 import MenuMother from './menu file/MenuMother';
 import Page from './page file/Page';
+import Reservation from './Reservation';
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/page",
         element: <Page></Page> ,
+      },
+      {
+        path: "/reservation",
+        element:  <Reservation></Reservation> ,
       },
     ],
   },
