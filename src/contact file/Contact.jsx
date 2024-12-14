@@ -1,4 +1,5 @@
 import ContactBanner from "./ContactBanner";
+import ContactForm from "./ContactForm";
 
 
 
@@ -8,6 +9,7 @@ const Contact = () => {
         <div>
 
             <ContactBanner></ContactBanner>
+            <ContactForm></ContactForm>
             
         </div>
     );
