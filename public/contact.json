@@ -1,0 +1,23 @@
+[
+{
+   "image":"https://dina.matchthemes.com/wp-content/uploads/gallery-12-3.jpg",
+   "title":"London",
+   "h1":"12 ComHill St, Suite 2 London 22222",
+   "h2":"1-800-000-111 // contact@example.com"
+
+},
+{
+   "image":"https://dina.matchthemes.com/wp-content/uploads/gallery-2-2.jpg",
+   "title":"New York",
+   "h1":"40 Park Ave, Brooklyn, New York 70250",
+   "h2":"1-800-000-111 // contact@example.com"
+
+},
+{
+   "image":"https://dina.matchthemes.com/wp-content/uploads/gallery-11-3.jpg",
+   "title":"Paris",
+   "h1":"30 George V St, Suite 1 Paris 33333",
+   "h2":"1-800-000-111 // contact@example.com"
+
+}
+]

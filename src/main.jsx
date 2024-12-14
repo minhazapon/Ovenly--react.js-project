@@ -14,6 +14,7 @@ import MenuMother from './menu file/MenuMother';
 import Page from './page file/Page';
 import Reservation from './Reservation';
 import Gallery from './gallery file/Gallery';
+import Contact from './contact file/Contact';
 
 
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery></Gallery> ,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact> ,
       },
     ],
   },
