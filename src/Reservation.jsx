@@ -1,4 +1,5 @@
 import ReBanner from "./reserv file/ReBanner";
+import ReBookForm from "./reserv file/ReBookForm";
 
 
 
@@ -8,6 +9,7 @@ const Reservation = () => {
         <div className="   ">
 
              <ReBanner></ReBanner>
+             <ReBookForm></ReBookForm>
             
         </div>
     );
