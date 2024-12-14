@@ -1,10 +1,13 @@
+import ReBanner from "./reserv file/ReBanner";
 
 
 
 const Reservation = () => {
 
     return (
-        <div className="  ml-12 mr-12 ">
+        <div className="   ">
+
+             <ReBanner></ReBanner>
             
         </div>
     );
